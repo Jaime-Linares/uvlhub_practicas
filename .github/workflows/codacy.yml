@@ -14,7 +14,7 @@ jobs:
     strategy:
       fail-fast: false    # si falla una matriz, no detiene las demás para saber si las demas fufan
       matrix:
-        python-version: ['3.10', '3.11', '3.12']
+        python-version: ['3.10', '3.11', '3.12']   # hay que poner otra vez 3.10
 
     services:
       mysql:
